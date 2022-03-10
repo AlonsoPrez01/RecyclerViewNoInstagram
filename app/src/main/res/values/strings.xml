@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">No-Instagram</string>
+    <string name="id">id</string>
+    <string name="Nombre">Nombre</string>
+    <string name="usuario">Usuario</string>
+    <string name="likes">Likes</string>
+    <string name="coments">Comentarios</string>
+    <string name="texto">Texto</string>
+    <string name="btn_like">Like</string>
+    <string name="btn_comment">Comentar</string>
+    <string name="btn_compartir">Compartir</string>
+    <string name="btn_guardar">Guardar</string>
+</resources>
