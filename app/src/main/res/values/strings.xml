@@ -10,4 +10,5 @@
     <string name="btn_comment">Comentar</string>
     <string name="btn_compartir">Compartir</string>
     <string name="btn_guardar">Guardar</string>
+    <string name="publicacion_desc">Imagen de publicación</string>
 </resources>

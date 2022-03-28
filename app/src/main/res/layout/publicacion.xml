@@ -8,6 +8,16 @@
     android:orientation="vertical"
     app:cardBackgroundColor="@color/black">
 
+    <com.rey.material.widget.ProgressView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        app:pv_autostart="true"
+        app:pv_circular="true"
+        app:pv_progressStyle="@style/Material.Drawable.CircularProgress"
+        app:pv_progressMode="indeterminate"
+        app:cpd_strokeColor="@color/white"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +34,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/alonso_24"
+                android:src="@drawable/alonso"
                 tools:ignore="RtlSymmetry" />
 
             <TextView
@@ -46,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="410dp"
             android:src="@drawable/ic_launcher_background"
-            tools:ignore="ContentDescription" />
+            android:contentDescription="@string/publicacion_desc" />
 
         <LinearLayout
             android:layout_width="match_parent"
